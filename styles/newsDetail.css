@@ -1,0 +1,73 @@
+#header ul{
+    padding-bottom:40px;
+}
+#header img{
+    width:130px;
+    height:130px;
+}
+#content{
+    width:100%;
+    background-color:#d4e7f8;
+    overflow:hidden;
+}
+#content .newsContent{
+    width:78%;
+    float:left;
+}
+#content .newsDetail{
+    background-color:#fff;
+    border-radius:10px;
+    padding:10px;
+    margin:50px 0 40px;
+}
+.newsDetail span{
+    display:inline-block;
+    margin:10px 20px 20px 0;
+    font-size:12px;
+}
+.newsDetail p{
+    font-size:14px;
+    line-height:26px;
+}
+.newsContent a{
+    float:right;
+    margin-bottom:50px;
+    color:#5aabe0;
+}
+.newsContent a:hover{
+    text-decoration:underline;
+}
+#content .contact{
+    box-sizing:border-box;
+    width:22%;
+    height:100%;
+    float:right;
+    padding:0 10px;
+    line-height:24px;
+}
+#content .contactUs{
+    margin:60px 0 10px;
+}
+#content .contact h3{
+    font-weight:normal;
+    line-height:40px;
+}
+#content .contact p{
+    font-size:12px;
+    color:#cdd5e0;
+}
+#content .contact img{
+    width:100px;
+    height:100px;
+    margin:0 20px;
+}
+#content .source{
+    width:80%;
+    height:100px;/*待删除*/
+}
+.contact h3{
+    color:#58abe1;
+}
+#content .contact p{
+    color:#65737e;
+}

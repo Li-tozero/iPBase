@@ -1,0 +1,220 @@
+#header ul{
+    padding-bottom:40px;
+
+}
+#content{
+    width:100%;
+    position:relative;
+    /*overflow: hidden;*/
+}
+#content .mask{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    /*background-color:#a5bfd8;*/
+}
+#content .bg{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background-color:#a5bfd8;
+}
+#content .mask img{
+    width:100%;
+    height:50%;
+    /*filter:blur(3px);*/
+    opacity:0.5;
+    filter:alpha(opacity=50);
+}
+#content .comWidth{
+    position:relative;
+    height:100%;
+}
+#content .search{
+    float:right;
+}
+#content .sourceContent{
+    width:74%;
+    /*background-color:blue;*/
+    /*height:600px;*/
+    float:left;
+    margin-top:100px;/*删除*/
+
+}
+.sourceContent input{
+    box-sizing:border-box;
+    padding:4px;
+    outline:none;
+    border:none;
+    box-shadow: 0 0 20px #8d9ca3;
+    height:36px;
+
+}
+.sourceContent input:nth-child(1){
+    width:400px;
+    border-radius: 0.4em 0 0 0.4em ;
+}
+.sourceContent input:nth-child(2){
+    width:80px;
+    color:#fff;
+    background-color:#1a243d;
+    border-radius: 0 0.4em 0.4em 0 ;
+    line-height: 28px;
+    box-shadow:0px 0px 30px #a1acb0;
+    cursor: pointer;
+}
+#sourceTab{
+    clear:both;
+    margin:58px 0 40px;
+}
+#apartment{
+    /*height:20px;*/
+    bakckground-color:red;/*删除*/
+
+}
+#apartment ul{
+
+}
+#apartment li{
+    float:left;
+    padding:6px 20px;
+    margin-right:8px;
+    border:1px solid transparent;
+    color:#57ace2;
+    font-weight:bold;
+}
+#apartment li:hover,#apartment li.cur{
+    border:1px solid #57ace2;
+    border-radius: 5px 5px 0 0;
+    color:#fff;
+    background-color:#5aace4;
+}
+#sourceTab .fixHeight{
+    width:100%;
+    height:400px;
+}
+#apartSources{
+    box-sizing:border-box;
+    clear:both;
+    width:100%;
+    border:1px solid #e2e2e2;
+    border-top:2px solid #57ace2;
+    position:relative;
+    border-radius:0 0 8px 8px;
+    /*待做：思考如何不定高找到absolute设置后父元素设置为relative后高度塌陷*/
+    /*height:400px;*/
+}
+/**/
+.clearfix:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+#apartSources .mask{
+    width:100%;
+    height:100%;
+    background-color: #e2e2e2;
+    position:absolute;
+    left:0;
+    top:0;
+    opacity: 0.5;
+}
+/**/
+#apartSources .apartSource{
+    position:absolute;
+    /*position:relative;*/
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+/**/
+#apartSources .cur{
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+
+#apartSources li{
+    position: relative;
+    border-top:1px solid #c7c5c6;
+    overflow:hidden;
+    padding:10px;
+}
+#apartSources li:nth-child(1){
+    border-top:none;
+}
+#apartSources .sourceTit{
+    box-sizing:border-box;
+    width:20%;
+    float:left;
+}
+#apartSources h3{
+    font-weight:normal;
+    font-size:14px;
+    color:#19243a;
+    margin:6px 0;
+}
+#apartSources span{
+    font-size:10px;
+    color:#a1a1a1;
+}
+#apartSources p{
+    color:#a1a1a1;
+    font-size:12px;
+    line-height:20px;
+}
+#apartSources .sourceCon{
+    box-sizing:border-box;
+    width:56%;
+    float:left;
+    margin:0 20px 10px;
+}
+#apartSources .downLoad{
+    position: absolute;
+    box-sizing:border-box;
+    width:16%;
+    top:0;
+    right:0;
+    padding:32px 32px 0;
+    border-left:1px solid #c7c5c6;
+    height:100%;
+}
+#apartSources a{
+    color:#0a385c;
+}
+/*#sourceTab{*/
+    /*height:200px;!*待改*!*/
+/*}*/
+#content .contact{
+    box-sizing:border-box;
+    width:26%;
+    height:100%;
+    float:right;
+    padding:0 30px;
+    line-height:24px;
+    /*background-color:red;*/
+    margin-top:60px;
+}
+#content .contactUs{
+    margin:60px 0 10px;
+}
+#content .contact h3{
+    font-weight:normal;
+    line-height:40px;
+}
+#content .contact p{
+    font-size:12px;
+    color:#3e3e40;
+}
+#content .contact img{
+    width:100px;
+    height:100px;
+    margin:0 20px;
+}
+#content .source{
+    width:80%;
+    /*background:red;*/
+    height:100px;/*待删除*/
+}

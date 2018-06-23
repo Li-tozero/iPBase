@@ -1,0 +1,90 @@
+#content{
+    background-color:#a5bfd8;
+}
+#content .banner{
+    width:100%;
+    position:relative;
+    height:400px;
+}
+#content .banner img{
+    width:100%;
+    height:400px;
+}
+#content .description{
+    width:100%;
+    color:#fff;
+    position:absolute;
+    bottom:0;
+}
+#content .mask{
+    position:absolute;
+    width:100%;
+    height:78px;
+    background-color:#1a243d;
+    opacity:0.8;
+    bottom:0;
+}
+#content .con{
+    position: relative;
+    padding-bottom:10px;
+}
+.achievement{
+    padding:10px 0 20px;
+
+}
+.waterfall{
+    -moz-column-count:4; /* Firefox */
+    -webkit-column-count:4; /* Safari 和 Chrome */
+    column-count:4;
+    -moz-column-gap: 1em;
+    -webkit-column-gap: 1em;
+    column-gap: 1em;
+}
+/*一个内容层*/
+.item{
+    padding: 1em;
+    margin: 0 0 1em 0;
+    -moz-page-break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    break-inside: avoid;
+    border-radius: 5px;
+    background-color:#fff;
+}
+.item img{
+    width: 100%;
+    margin-bottom:10px;
+}
+.item h3{
+    font-weight:normal;
+    color:#585858;
+}
+.item p{
+    color:#a3a3a3;
+    line-height:20px;
+}
+
+.contact h3{
+    font-weight:normal;
+    color:#183350;
+}
+.observe{
+    float:left;
+}
+.observe img{
+    width:100px;
+    height:100px;
+    margin:10px 0;
+}
+
+.contactUs{
+    float:left;
+    margin-left:60px;
+}
+.contactUs p{
+    color:#545e6a;
+}
+.mid{
+    height:100%;
+    margin-left:254px;
+}
+

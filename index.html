@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学生创新实践基地</title>
+    <link rel="stylesheet" type="text/css" href="styles/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/index.css"/>
+    <script type="text/javascript" src="scripts/common.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div id="header">
+        <div id="nav" class="comWidth clearfix">
+            <div id="logo"><img src="images/icon.png" alt="logo"/></div>
+            <ul>
+                <li><a href="index.html" class="active">首页</a></li>
+                <li><a href="news.html">新闻</a></li>
+                <li><a href="source.html">资料</a></li>
+                <li><a href="aboutUs.html">关于我们</a></li>
+            </ul>
+        </div>
+        <button id="showLogin">登录</button>
+    </div>
+    <div id="content" style="clear:both;">
+        <div id="list" style="left:0;transition:left 1s;">
+            <img src="images/index/index.jpg" alt="1"/>
+            <img src="images/index/info.jpg" alt="2"/>
+            <img src="images/index/news.jpg" alt="3"/>
+            <img src="images/index/index.jpg" alt="1"/>
+        </div>
+        <div id="btn">
+            <span index="0"></span>
+            <span index="1"></span>
+            <span index="2"></span>
+        </div>
+    </div>
+    <div id="footer">版权所有</div>
+    <!--登陆弹窗-->
+    <div id="mask"></div>
+    <div id="login">
+        <div class="wrapper">
+            <form action="#" method="#">
+                <input type="text" name="userName" placeholder="账号"/>
+                <input type="password" name="psw" placeholder="密码"/>
+                <input type="button" value="忘记密码"/>
+                <input type="button" value="登陆"/>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

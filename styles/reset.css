@@ -1,0 +1,105 @@
+body,div,ul,ol,li,input,button,p,h3,img{
+    margin:0;
+    padding:0;
+}
+img{
+    border:0;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+body{
+    font-size: 14px;
+    font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+li{
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+}
+.comWidth{
+    width:840px;
+    margin:0 auto;
+}
+.clearfix:after {
+    content:"";
+    display: block;
+    clear:both;
+}
+/*共有头部*/
+#wrap{
+    min-width: 1024px;
+    position:relative;
+    min-height:600px;
+}
+#header{
+    width:100%;
+    height:30%;
+    /*background-color:red;*/
+    /*待删除*/
+    /*height:120px;*/
+    background-color:#1a243d;
+    position: relative;
+    z-index:2;
+    box-shadow: 0 0 10px #323e4c;
+}
+#nav{
+    /*background-color:orange;!*待删除*!*/
+    position:relative;
+    /*overflow:hidden;*/
+}
+#header ul{
+    padding-top:50px;
+    padding-bottom:66px;
+}
+#header li{
+    float:left;
+    margin:0 34px;
+}
+#header ul li:nth-child(2){
+    margin-right:200px;
+}
+#header a{
+    display:inline-block;
+    width:100px;
+    height:26px;
+    color:#599bcf;
+    text-align:center;
+    line-height:26px;
+    border-radius: 5px;
+}
+#header a:hover,#header .active{
+    color:#1a214d;
+    background-color:#59abe3;
+}
+#header #logo{
+    position:absolute;
+    left:50%;
+    margin-left:-75px;
+}
+#header img{
+    width:150px;
+    height:150px;
+}
+#header button{
+    position:absolute;
+    right:80px;
+    top:20px;
+    background-color:#1a214d;
+    color:#59abe3;
+    border:none;
+    font-size:16px;
+    outline:none;
+    cursor:pointer;
+}
+/*公有底部*/
+#footer{
+    width:100%;
+    height:10%;
+    background-color:#000;
+    color:#fff;
+    line-height:28px;
+    text-align:center;
+}
